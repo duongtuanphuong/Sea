@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li class="test"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tr%C3%BAc_Anh_%E2%80%93_M%E1%BA%AFt_bi%E1%BA%BFc_BTS_%282%29.png/250px-Tr%C3%BAc_Anh_%E2%80%93_M%E1%BA%AFt_bi%E1%BA%BFc_BTS_%282%29.png" alt=""></li>
+        <li class="test"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/M%E1%BA%AFt_bi%E1%BA%BFc_%E2%80%93_Behind_the_scenes_%281%29.png" alt=""></li>
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        let array =[];
+        $('img').each(function(){
+            array.push($(this).attr('src'))
+        })
+    </script>
+</body>
+</html>
