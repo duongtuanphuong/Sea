@@ -14,5 +14,5 @@ public class CreateBrandReq {
     private String name;
 
     @NotNull(message = "Ảnh trống")
-    private String thumbail;
+    private String thumbnail;
 }
